@@ -1,0 +1,24 @@
+ {
+    "id": 57436521,
+    "name": "Toxic Sewage",
+    "author": "JBeat15",
+    "creators": [""],
+    "verifier": "JBeat15",
+    "verification": "https://www.youtube.com/watch?v=CU19A-bwsGA",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Sample_Victor_1",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Sample_Victor_2",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
