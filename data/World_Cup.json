@@ -1,0 +1,12 @@
+{
+    "id": 1.28,
+    "name": "World Cup",
+    "author": "Minimax",
+    "creators": ["Neon","LYW"],
+    "verifier": "Tuan Nguyen",
+    "verification": "https://www.youtube.com/watch?v=jgmKIw9P0N8",
+    "percentToQualify": "80",
+    "password": "~",
+    "records": [
+    ]
+}
