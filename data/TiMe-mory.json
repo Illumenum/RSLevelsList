@@ -8,17 +8,5 @@
     "percentToQualify": "70",
     "password": "~",
     "records": [
-        {
-            "user": "Alt",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": "360"
-        },
-        {
-            "user": "Alt2",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": 120
-        }
     ]
 }
