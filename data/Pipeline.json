@@ -8,5 +8,11 @@
     "percentToQualify": "82",
     "password": "~",
     "records": [
+        {
+            "user": "OM:)",
+            "link": "https://streamable.com/8vyg4h",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
