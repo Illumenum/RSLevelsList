@@ -100,7 +100,7 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks
+                        Achieved the record without using hacks, shields, floatings or checkpoints. If a powerup is given automatically, the run must be completed without using it
                     </p>
                     <p>
                         Achieved the record on the level that is listed on the site
@@ -109,10 +109,10 @@ export default {
                         Have either source audio in the video. Edited audio only does not count
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt.
+                        The recording must show the ball leaving the beginning portal or show the character menu before the attempt starts.
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        The recording must also show the player hit the endwall, or the completion will be invalidated. Even if ads are shown after completion, as long as the player hits the endwall the record should be valid
                     </p>
                     <p>
                         Do not use secret routes or bug routes
