@@ -13,6 +13,12 @@
             "link": "https://m.youtube.com/shorts/PurEWEDgS5o?feature=share",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "vanadium",
+            "link": "https://www.youtube.com/shorts/ypANYjM77FQ",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
