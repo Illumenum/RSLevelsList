@@ -8,5 +8,11 @@
     "percentToQualify": "69",
     "password": "~",
     "records": [
+            {
+            "user": "Varvatos",
+            "link": "https://www.youtube.com/shorts/u9sP8SlF54k",
+            "percent": 79,
+            "hz": 60
+            }
     ]
 }
