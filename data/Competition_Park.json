@@ -8,5 +8,11 @@
     "percentToQualify": "79",
     "password": "~",
     "records": [
+        {
+            "user": "Bendan",
+            "link": "https://www.youtube.com/shorts/caHyhdweqlA",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
