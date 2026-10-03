@@ -37,6 +37,12 @@
             "link": "https://www.youtube.com/watch?v=5V1b0kxO6XE",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Hussain Behbehani",
+            "link": "https://www.youtube.com/shorts/IHRr81zQ7pQ",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
