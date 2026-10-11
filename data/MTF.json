@@ -8,5 +8,11 @@
     "percentToQualify": "82",
     "password": "~",
     "records": [
+        {
+            "user": "OM:)",
+            "link": "https://youtube.com/shorts/SWwAxgyg0wQ?si=7q9TYmtqga-SAgt_",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
