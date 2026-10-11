@@ -106,7 +106,7 @@ export default {
                         Achieved the record on the level that is listed on the site
                     </p>
                     <p>
-                        Have either source audio in the video. Edited audio only does not count
+                        Have either source audio in the video. Edited audio only does not count. If the level whose completion you submitted has a copyrighted song, playing with only sound effects is recommended, unless you are able to pitch-shift the song
                     </p>
                     <p>
                         The recording must show the ball leaving the beginning portal or show the character menu before the attempt starts.
