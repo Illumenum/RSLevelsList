@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "~",
     "records": [
+        {
+            "user": "unsen3mental",
+            "link": "https://youtu.be/JATqXb9gk-0?si=jDvWs6XCDr-PXinm",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
