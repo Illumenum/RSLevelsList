@@ -8,9 +8,15 @@
     "percentToQualify": "100",
     "password": "~",
     "records": [
-           {
+            {
             "user": "Izumi",
             "link": "https://www.youtube.com/shorts/3EDtbP7EB4g",
+            "percent": 100,
+            "hz": 120
+            },
+            {
+            "user": "unsen3mental",
+            "link": "https://youtu.be/HTKoGlzwVpU?si=Qp9E9NfFNcNp3H46",
             "percent": 100,
             "hz": 120
             }
