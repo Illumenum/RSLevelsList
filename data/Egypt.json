@@ -8,11 +8,17 @@
     "percentToQualify": "100",
     "password": "~",
     "records": [
-        {
+            {
             "user": "Blazing",
             "link": "https://youtube.com/shorts/GmB4EPIuqgc?si=Cmqv59BUwyR6UVtE",
             "percent": 100,
             "hz": 120
-        }
+            },
+            {
+            "user": "unsen3mental",
+            "link": "https://youtu.be/U2Dfe7FKPP8?si=IEG7nRi6YnTPKD2L",
+            "percent": 100,
+            "hz": 120
+            }
     ]
 }
