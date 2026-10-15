@@ -8,5 +8,11 @@
     "percentToQualify": "80",
     "password": "~",
     "records": [
+        {
+            "user": "Sena",
+            "link": "https://youtube.com/shorts/HJQx_p_O4fQ?si=XAU1Y1yGx7dqfDa4",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
