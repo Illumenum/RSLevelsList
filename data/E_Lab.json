@@ -19,6 +19,18 @@
             "link": "https://www.youtube.com/shorts/ypANYjM77FQ",
             "percent": 100,
             "hz": 60
-        }
+        },
+        {
+            "user": "Blazing",
+            "link": "https://youtube.com/shorts/mV9IpbSO6UA?si=15DhCs6sZm5Uq7o7",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "stayvon",
+            "link": "https://youtu.be/GPEOiaCTU-w?si=o59UKFq71MG0dMsp",
+            "percent": 100,
+            "hz": 120
+        } 
     ]
 }
