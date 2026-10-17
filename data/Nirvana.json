@@ -8,11 +8,17 @@
     "percentToQualify": "77",
     "password": "~",
     "records": [
-        {
+            {
             "user": "OM:)",
             "link": "https://streamable.com/5kj7il",
             "percent": 100,
             "hz": 60
-        }
+            },
+            {
+            "user": "jjgh5467",
+            "link": "https://youtu.be/pF-VJVhc6no?si=Mx4Fvf2WluZOGwuJ",
+            "percent": 100,
+            "hz": 120
+            }      
     ]
 }
