@@ -1,6 +1,6 @@
 {
     "id": 1.44,
-    "name": "The Fourth Anniversary",
+    "name": "The 4th Anniversary",
     "author": "Cheetah Mobile",
     "creators": ["TSR","Tetris","Squareroot"],
     "verifier": "SHAvibe",
@@ -13,6 +13,12 @@
             "link": "https://www.youtube.com/shorts/u9sP8SlF54k",
             "percent": 79,
             "hz": 60
+            },
+            {
+            "user": "jjgh5467",
+            "link": "https://youtu.be/uaQCFrMWI6c?si=5Ed5LuzSezp-PAg_",
+            "percent": 100,
+            "hz": 120
             }
     ]
 }
