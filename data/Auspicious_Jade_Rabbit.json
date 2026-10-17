@@ -8,11 +8,17 @@
     "percentToQualify": "67",
     "password": "~",
     "records": [
-        {
+            {
             "user": "OM:)",
             "link": "https://streamable.com/hokirv",
             "percent": 100,
             "hz": 60
-        }
+            },
+            {
+            "user": "jjgh5467",
+            "link": "https://youtu.be/j4-HuMNulWU?si=abvPOfU5aUt5Mprh",
+            "percent": 100,
+            "hz": 120
+            }      
     ]
 }
