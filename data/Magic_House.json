@@ -31,6 +31,12 @@
             "link": "https://www.youtube.com/watch?v=wzo_yb_IrP0",
             "percent": 100,
             "hz": 120
+           },
+           {
+            "user": "Mythic",
+            "link": "https://youtu.be/3uC8-ReyUCA?si=Xg8jPMAS3KZMwvWJ",
+            "percent": 100,
+            "hz": 120
            }
     ]
 }
