@@ -8,5 +8,11 @@
     "percentToQualify": "79",
     "password": "~",
     "records": [
+        {
+            "user": "jjgh5467",
+            "link": "https://www.youtube.com/watch?v=ZFboQyfRcOY",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
