@@ -20,7 +20,7 @@
             "percent": 100,
             "hz": 120
         },
-                {
+        {
             "user": "jjgh5467",
             "link": "https://youtube.com/shorts/2mAcpnfoJc8?is=pRShosUBV1KYUtsQ",
             "percent": 100,
@@ -47,6 +47,12 @@
         {
             "user": "Abnormalol",
             "link": "https://www.youtube.com/watch?v=6clj9gyyqyc",
+            "percent": 100,
+            "hz": 120
+       },
+       {
+            "user": "Sena",
+            "link": "https://youtu.be/fCy2vsPhaGQ?si=uuHsCMCcM13xWutO",
             "percent": 100,
             "hz": 120
        }
