@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "~",
     "records": [
+        {
+            "user": "stayvon",
+            "link": "https://youtube.com/shorts/vDGy54w7c7M?si=-nNQOJMe7xpk_L3s",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
