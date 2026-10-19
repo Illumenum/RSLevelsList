@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "~",
     "records": [
+        {
+            "user": "kromat1k",
+            "link": "https://youtu.be/1ue4V3JWEqI?si=eiU9WtKWxbiCvRIA",
+            "percent": 100,
+            "hz": 120
+       }
     ]
 }
