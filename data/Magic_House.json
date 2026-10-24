@@ -31,18 +31,24 @@
             "link": "https://www.youtube.com/watch?v=wzo_yb_IrP0",
             "percent": 100,
             "hz": 120
-           },
-           {
+            },
+            {
             "user": "Mythic",
             "link": "https://youtu.be/3uC8-ReyUCA?si=Xg8jPMAS3KZMwvWJ",
             "percent": 100,
             "hz": 120
-           },
-           {
+            },
+            {
             "user": "brick",
             "link": "https://youtu.be/OmCZr7yGqjc?si=7ua2X8zC6ivfQn_5",
             "percent": 100,
             "hz": 60
-           }
+            },
+            {
+            "user": "OM:)",
+            "link": "https://youtube.com/shorts/0lrjUK3NNCQ?si=PJXR2u2l4NC2WME3",
+            "percent": 100,
+            "hz": 60
+            }
     ]
 }
