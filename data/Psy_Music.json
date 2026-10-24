@@ -8,11 +8,17 @@
     "percentToQualify": "82",
     "password": "~",
     "records": [
-        {
+            {
             "user": "automania",
             "link": "https://youtu.be/wcmEGmMgQik",
             "percent": 100,
             "hz": 60
-        }
+            },
+            {
+            "user": "kromat1k",
+            "link": "https://youtu.be/HkH41rUzZRU?si=Shm7ceEF1DpLPADl",
+            "percent": 100,
+            "hz": 120
+            }
     ]
 }
