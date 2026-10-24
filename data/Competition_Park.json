@@ -19,6 +19,12 @@
             "link": "https://www.youtube.com/watch?v=HAJlkjGeoUg",
             "percent": 100,
             "hz": 120
+       },
+       {
+            "user": "brick",
+            "link": "https://youtu.be/UTVuJkgGA9o?si=s_5FWurhGjUHut90",
+            "percent": 100,
+            "hz": 60
        }
     ]
 }
