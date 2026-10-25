@@ -8,5 +8,23 @@
     "percentToQualify": "100",
     "password": "~",
     "records": [
+            {
+            "user": "Rolling ParK",
+            "link": "https://youtu.be/zDCSDJaXe18?si=LNzVsJ1nz_orDW76",
+            "percent": 100,
+            "hz": 60
+            },
+            {
+            "user": "Mythic",
+            "link": "https://youtu.be/7X6IGhXTpo8?si=r_zmeXny-i3IogW8",
+            "percent": 100,
+            "hz": 120
+            },
+            {
+            "user": "OM:)",
+            "link": "https://youtube.com/shorts/kfaDV2u23iY?si=F5oVw0BCnaB7CQjw",
+            "percent": 100,
+            "hz": 60
+            }
     ]
 }
