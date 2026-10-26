@@ -8,7 +8,7 @@
     "percentToQualify": "90",
     "password": "~",
     "records": [
-                {
+        {
             "user": "Bendan",
             "link": "https://youtube.com/shorts/NkgrjdmMNiw?feature=share",
             "percent": 100,
@@ -19,6 +19,12 @@
             "link": "https://youtube.com/shorts/kslXXzvAvk4?si=A_FQo6Q9R4Qvf8qZ",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "jjgh5467",
+            "link": "https://youtube.com/shorts/0zCAOlLWYJs?si=yekjn79APQmhvH6G",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
