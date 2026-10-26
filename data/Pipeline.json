@@ -14,7 +14,7 @@
             "percent": 100,
             "hz": 60
         },
-             {
+        {
             "user": "Bendan",
             "link": "https://www.youtube.com/shorts/LcYq9Z-oPE0",
             "percent": 100,
@@ -35,6 +35,12 @@
         {
             "user": "jjgh5467",
             "link": "https://youtu.be/sNNahMWo2dU?si=zub5PuBIfxxwIFE5",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Sena",
+            "link": "https://youtube.com/shorts/aEE0iYBCxe0?si=r3WeKmf47bj0Z56u",
             "percent": 100,
             "hz": 120
         }
