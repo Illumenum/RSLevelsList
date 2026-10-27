@@ -19,6 +19,13 @@
             "link": "https://www.youtube.com/watch?v=yMzoFwcXoJI",
             "percent": 100,
             "hz": 120
-          }
+            },
+            {
+            "user": "Sena",
+            "link": "https://youtube.com/shorts/UDI-jcrSpYE?si=loi1xgYpIle28XGo",
+            "percent": 100,
+            "hz": 120
+            }
+
     ]
 }
