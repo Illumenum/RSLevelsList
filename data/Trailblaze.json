@@ -37,6 +37,12 @@
             "link": "https://www.youtube.com/watch?v=6clj9gyyqyc",
             "percent": 100,
             "hz": 120
-             }
+             },
+        {
+            "user": "Gabo8a",
+            "link": "https://youtube.com/shorts/u4A1BVBDmaY",
+            "percent": 100,
+            "hz":60
+        }
     ]
 }
