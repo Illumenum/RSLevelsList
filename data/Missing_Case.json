@@ -19,6 +19,12 @@
             "link": "https://www.youtube.com/shorts/piCcdM4tIio",
             "percent": 100,
             "hz":60
+        },
+        {
+            "user": "Izumi",
+            "link": "https://youtube.com/shorts/zuqISxwEcXk?si=BBYYIwq2X52IkVj8",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
