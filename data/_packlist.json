@@ -31,6 +31,171 @@
         "records": [
             
         ]
+    },
+    {
+        "name": "Christmas Pack",
+        "levels": [
+            "PNWH",
+            "Varying_Christmas",
+            "Polar_Exploration",
+            "Christmas",
+            "New_Year"
+        ],
+        "colour": "#000000",
+        "score": 200,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Halloween Pack",
+        "levels": [
+            "TDOTD",
+            "Halloween",
+            "Missing_Case",
+            "Midnight_Carnival",
+            "Hallow_Night"
+        ],
+        "colour": "#000000",
+        "score": 215,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Medium Pack",
+        "levels": [
+            "Nuclear_Energy",
+            "Mirrorworld",
+            "Cthulhu",
+            "Mechanical_Power",
+            "Industrial_Base"
+        ],
+        "colour": "#000000",
+        "score": 235,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Co-Creation Pack II",
+        "levels": [
+            "Musical_Theatre",
+            "Nuclear_Energy",
+            "Melodic_Metropolis",
+            "Fruity_Paradise",
+            "NEWBORN"
+        ],
+        "colour": "#000000",
+        "score": 255,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Space Pack",
+        "levels": [
+            "VFN",
+            "E_Lab",
+            "Future_Stronghold",
+            "Deep_Space",
+            "ET"
+        ],
+        "colour": "#000000",
+        "score": 280,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Co-Creation Pack III",
+        "levels": [
+            "Bouncing_City",
+            "Radiant_Shadow",
+            "COT",
+            "Knit_Kingdom",
+            "Lab_C"
+        ],
+        "colour": "#000000",
+        "score": 310,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Hard Pack",
+        "levels": [
+            "Knit_Kingdom",
+            "Phantom_Thief",
+            "American_Football",
+            "Cave",
+            "Neon"
+        ],
+        "colour": "#000000",
+        "score": 335,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Fanmade Pack",
+        "levels": [
+            "TBS",
+            "VFN",
+            "Cave",
+            "The_Chaos",
+            "ADO7Y"
+        ],
+        "colour": "#000000",
+        "score": 400,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Insanity Pack",
+        "levels": [
+            "World_Cup",
+            "SSS",
+            "Happy",
+            "1UP",
+            "RoboToy"
+        ],
+        "colour": "#000000",
+        "score": 440,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Anniversary Pack I",
+        "levels": [
+            "Happy_Birthday",
+            "T4A",
+            "Lov-E",
+            "ADO7Y",
+            "Nirvana"
+        ],
+        "colour": "#000000",
+        "score": 515,
+        "records": [
+            
+        ]
+    },
+    {
+        "name": "Anniversary Pack II",
+        "levels": [
+            "MTF",
+            "Unending_Voyage",
+            "Our_Story_Onwards",
+            "Trailblaze",
+            "TiMe-mory"
+        ],
+        "colour": "#000000",
+        "score": 590,
+        "records": [
+            
+        ]
     }
 ]
 
