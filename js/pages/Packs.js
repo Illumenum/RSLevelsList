@@ -3,10 +3,9 @@ import { embed } from '../util.js';
 import { score } from '../score.js';
 import { fetchPacks } from '../content.js';
 import Spinner from '../components/Spinner.js';
-import LevelAuthors from '../components/LevelAuthors.js';
 
 export default {
-    components: { Spinner, LevelAuthors },
+    components: { Spinner },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -41,7 +40,14 @@ export default {
                     </div>
                     <template v-if="currentLevel">
                         <h2>#{{ currentRank }} – {{ currentLevel.name }}</h2>
-                        <LevelAuthors :author="currentLevel.author" :creators="currentLevel.creators" :verifier="currentLevel.verifier"></LevelAuthors>
+                        <div class="level-authors">
+                            <div class="type-title-sm">Publisher</div>
+                            <p class="type-body">{{ currentLevel.author }}</p>
+                            <div class="type-title-sm">Creators</div>
+                            <p class="type-body">{{ currentLevel.creators.join(', ') }}</p>
+                            <div class="type-title-sm">Verifier</div>
+                            <p class="type-body">{{ currentLevel.verifier }}</p>
+                        </div>
                         <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                         <ul class="stats">
                             <li>
@@ -146,3 +152,4 @@ export default {
         },
     },
 };
+
