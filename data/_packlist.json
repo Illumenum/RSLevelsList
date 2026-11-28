@@ -168,6 +168,21 @@
         ]
     },
     {
+        "name": "Extreme Pack",
+        "levels": [
+            "Competition_Park",
+            "Pipeline",
+            "Psy_Music",
+            "New_Year",
+            "Auspicious_Jade_Rabbit"
+        ],
+        "colour": "#000000",
+        "score": 490,
+        "records": [
+            
+        ]
+    }
+    {
         "name": "Anniversary Pack I",
         "levels": [
             "Happy_Birthday",
