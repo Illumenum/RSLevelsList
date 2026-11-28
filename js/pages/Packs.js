@@ -33,9 +33,9 @@ export default {
                             v-for="([lvl, err, rank], idx) in pack.levels"
                             @click="selectedLevel = idx"
                             class="btn"
-                            :style="{ opacity: selectedLevel === idx ? 1 : 0.6 }"
+                            :style="{ opacity: selectedLevel === idx ? 1 : 0.6, fontFamily: 'inherit' }"
                         >
-                            {{ lvl ? '#' + rank + ' ' + lvl.name : 'Error: ' + err }}
+                            <span class="type-label-lg>{{ lvl ? '#' + rank + ' ' + lvl.name : 'Error: ' + err }}
                         </button>
                     </div>
                     <template v-if="currentLevel">
@@ -97,6 +97,9 @@ export default {
                     <h3>About Packs</h3>
                     <p>
                         Packs are curated groups of levels on the list. Beat all levels in a pack to complete it!
+                    </p>
+                    <p>
+                        To complete a pack every level needs to be beaten without dying, shields, floatings or other powerups. Completion videos cannot have any edits or cuts
                     </p>
                 </div>
             </div>
