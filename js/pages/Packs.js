@@ -50,12 +50,18 @@ export default {
                     <template v-if="currentLevel">
                         <h2>#{{ currentRank }} – {{ currentLevel.name }}</h2>
                         <div class="level-authors">
-                            <div class="type-title-sm">Publisher</div>
-                            <p class="type-body">{{ currentLevel.author }}</p>
-                            <div class="type-title-sm">Creators</div>
-                            <p class="type-body">{{ currentLevel.creators.join(', ') }}</p>
-                            <div class="type-title-sm">Verifier</div>
-                            <p class="type-body">{{ currentLevel.verifier }}</p>
+                           <template v-if="currentLevel.author">
+                             <div class="type-title-sm">Publisher</div>
+                             <p class="type-body">{{ currentLevel.author }}</p>
+                           </template>
+                           <template v-if="currentLevel.creators && currentLevel.creators.length > 0">
+                             <div class="type-title-sm">Creators</div>
+                             <p class="type-body">{{ currentLevel.creators.join(', ') }}</p>
+                           </template>
+                           <template v-if="currentLevel.verifier">
+                             <div class="type-title-sm">Verifier</div>
+                             <p class="type-body">{{ currentLevel.verifier }}</p>
+                           </template>
                         </div>
                         <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                         <ul class="stats">
