@@ -9,12 +9,27 @@
             "Legendary_Racing"
         ],
         "colour": "#000000",
-        "score": 50,
+        "score": 150,
         "records": [
             {
-                "user": "jjgh5467",
+                "user": "Sample",
                 "link": "https://youtube.com/shorts/_GEVbt5qgoM?si=eY-YmH1Y801zzwTN"
             }
+        ]
+    },
+    {
+        "name": "Co-Creation Pack I",
+        "levels": [
+            "Starlight_Desert",
+            "PNWH",
+            "Cometbound",
+            "Jungle_Expedition",
+            "Polar_Exploration"
+        ],
+        "colour": "#000000",
+        "score": 175,
+        "records": [
+            
         ]
     }
 ]
