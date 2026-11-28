@@ -63,7 +63,7 @@ export default {
                              <p class="type-body">{{ currentLevel.verifier }}</p>
                            </template>
                         </div>
-                        <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                        <iframe v-if="video" class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                         <ul class="stats">
                             <li>
                                 <div class="type-label-lg">ID</div>
@@ -124,13 +124,13 @@ export default {
             return this.pack ? this.pack.levels[this.selectedLevel] : null;
         },
         currentLevel() {
-            return this.currentLevelEntry ? this.currentLevelEntry : null;
+            return this.currentLevelEntry ? this.currentLevelEntry[0] : null;
         },
         currentRank() {
-            return this.currentLevelEntry ? this.currentLevelEntry : null;
+            return this.currentLevelEntry ? this.currentLevelEntry[2] : null;
         },
         video() {
-            if (!this.currentLevel) return '';
+            if (!this.currentLevel || !this.currentLevel.verification) return '';
             return embed(this.currentLevel.verification);
         },
     },
