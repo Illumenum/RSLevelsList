@@ -49,6 +49,14 @@ export async function fetchEditors() {
 export async function fetchLeaderboard() {
     const list = await fetchList();
 
+    let packsList = [];
+    try {
+        const packResult = await fetch(`${dir}/_packlist.json`);
+        packsList = await packResult.json();
+    } catch {
+        packsList = [];
+    }
+
     const scoreMap = {};
     const errs = [];
     list.forEach(([level, err], rank) => {
@@ -65,6 +73,7 @@ export async function fetchLeaderboard() {
             verified: [],
             completed: [],
             progressed: [],
+            packs: [],
         };
         const { verified } = scoreMap[verifier];
         verified.push({
@@ -83,6 +92,7 @@ export async function fetchLeaderboard() {
                 verified: [],
                 completed: [],
                 progressed: [],
+                packs: [],
             };
             const { completed, progressed } = scoreMap[user];
             if (record.percent === 100) {
@@ -105,10 +115,32 @@ export async function fetchLeaderboard() {
         });
     });
 
+    // Manually awarded pack completions from _packlist.json
+    packsList.forEach((pack) => {
+        if (!pack.records) return;
+        pack.records.forEach((record) => {
+            const user = Object.keys(scoreMap).find(
+                (u) => u.toLowerCase() === record.user.toLowerCase(),
+            ) || record.user;
+            scoreMap[user] ??= {
+                verified: [],
+                completed: [],
+                progressed: [],
+                packs: [],
+            };
+            scoreMap[user].packs.push({
+                name: pack.name,
+                colour: pack.colour,
+                score: pack.score || 0,
+                link: record.link || '',
+            });
+        });
+    });
+
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
-        const { verified, completed, progressed } = scores;
-        const total = [verified, completed, progressed]
+        const { verified, completed, progressed, packs } = scores;
+        const total = [verified, completed, progressed, packs]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
 
