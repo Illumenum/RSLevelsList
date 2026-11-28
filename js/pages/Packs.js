@@ -33,9 +33,9 @@ export default {
                             v-for="([lvl, err, rank], idx) in pack.levels"
                             @click="selectedLevel = idx"
                             class="btn"
-                            :style="{ opacity: selectedLevel === idx ? 1 : 0.6, fontFamily: 'inherit' }"
+                            :style="{ opacity: selectedLevel === idx ? 1 : 0.6, }"
                         >
-                            <span class="type-label-lg>{{ lvl ? '#' + rank + ' ' + lvl.name : 'Error: ' + err }}
+                            {{ lvl ? '#' + rank + ' ' + lvl.name : 'Error: ' + err }}
                         </button>
                     </div>
                     <template v-if="currentLevel">
