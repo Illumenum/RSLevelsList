@@ -137,7 +137,7 @@ export async function fetchPacks() {
                 if (index === -1) {
                     return [null, levelPath];
                 }
-                return [list[index], null, index + 1];
+                return [list[index][0], null, index + 1];
             });
 
             return {
