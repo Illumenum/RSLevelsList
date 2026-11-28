@@ -56,33 +56,6 @@ export async function fetchLeaderboard() {
             errs.push(err);
             return;
         }
-        export async function fetchPacks() {
-    try {
-        const packResult = await fetch(`${dir}/_packlist.json`);
-        const packsList = await packResult.json();
-        const list = await fetchList();
-
-        return packsList.map((pack) => {
-            const levels = pack.levels.map((levelPath) => {
-                const index = list.findIndex(
-                    ([lvl]) => lvl && lvl.path === levelPath,
-                );
-                if (index === -1) {
-                    return [null, levelPath];
-                }
-                return [list[index][0], null, index + 1];
-            });
-
-            return {
-                ...pack,
-                levels,
-            };
-        });
-    } catch {
-        console.error(`Failed to load packs.`);
-        return null;
-    }
-}
 
         // Verification
         const verifier = Object.keys(scoreMap).find(
@@ -149,3 +122,32 @@ export async function fetchLeaderboard() {
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
 }
+
+export async function fetchPacks() {
+    try {
+        const packResult = await fetch(`${dir}/_packlist.json`);
+        const packsList = await packResult.json();
+        const list = await fetchList();
+
+        return packsList.map((pack) => {
+            const levels = pack.levels.map((levelPath) => {
+                const index = list.findIndex(
+                    ([lvl]) => lvl && lvl.path === levelPath,
+                );
+                if (index === -1) {
+                    return [null, levelPath];
+                }
+                return [list[index], null, index + 1];
+            });
+
+            return {
+                ...pack,
+                levels,
+            };
+        });
+    } catch {
+        console.error(`Failed to load packs.`);
+        return null;
+    }
+}
+
