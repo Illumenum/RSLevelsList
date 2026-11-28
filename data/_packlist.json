@@ -7,14 +7,15 @@
             "Chronos",
             "Passionate",
             "Legendary_Racing"
-        ]
-        "colour": "#000000"
-        "score": 50
+        ],
+        "colour": "#000000",
+        "score": 50,
         "records": [
-           {
-            "user": "jjgh5467",
-            "link": "https://youtube.com/shorts/_GEVbt5qgoM?si=eY-YmH1Y801zzwTN",
-           }
+            {
+                "user": "jjgh5467",
+                "link": "https://youtube.com/shorts/_GEVbt5qgoM?si=eY-YmH1Y801zzwTN"
+            }
         ]
     }
 ]
+
